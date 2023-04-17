@@ -8,7 +8,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-deta = {extras = ["async"], version = "^1.1.0"}
 requests = "^2.28.2"
 
 
