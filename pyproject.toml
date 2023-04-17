@@ -9,7 +9,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 deta = {extras = ["async"], version = "^1.1.0"}
+requests = "^2.28.2"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+autopep8 = "^2.0.2"
+pytest-env = "^0.8.1"
 
 [build-system]
 requires = ["poetry-core"]
